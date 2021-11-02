@@ -1,18 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./logoWM.PNG";
+
 import "./header.css";
 
 export default function Header() {
   return (
     <header>
       <div className="logo-con">
-        <img src={logo} alt="logo" className="logo"></img>
+        <Link className="nav-link" to="/">
+          <h1 className="logo">WM</h1>
+        </Link>
       </div>
       <div className="link-con">
         <ul className="nav-list">
           <li className="nav-item">
-            <Link className="nav-link">Home</Link>
+            <Link className="nav-link" to="/">
+              Home
+            </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link">About</Link>

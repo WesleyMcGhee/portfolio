@@ -1,0 +1,28 @@
+body {
+  background-image: url("./mtfuji.jpg");
+  background-position: top;
+}
+.bannar-con {
+  height: 93vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannar {
+  height: 30vh;
+  width: 35vw;
+  color: white;
+  background-color: #24242481;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 4rem;
+}
+.disc {
+  font-size: 2rem;
+}
