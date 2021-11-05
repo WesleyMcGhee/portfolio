@@ -1,11 +1,9 @@
 import React from "react";
-import Header from "../../components/header/Header";
 import "./home.css";
 
 export default function Home() {
   return (
     <section id="home">
-      <Header />
       <div className="bannar-con">
         <div className="bannar">
           <div className="bannar-in-con">

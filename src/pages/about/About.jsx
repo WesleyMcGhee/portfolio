@@ -1,12 +1,10 @@
 import React from "react";
-import Header from "../../components/header/Header";
 import "./about.css";
 import HeadShot from "./graduation.PNG";
 
 export default function About() {
   return (
     <section id="about">
-      <Header />
       <h1 className="section-title">About</h1>
       <div className="about-out-con">
         <div className="about-con">
