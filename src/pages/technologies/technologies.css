@@ -1,0 +1,36 @@
+#technologies {
+  height: 93vh;
+  width: 100%;
+  background-color: #424242;
+}
+.section-title {
+  color: white;
+}
+.tech-con {
+  width: 100%;
+  display: flex;
+  margin-top: 25vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tech-holder {
+  height: 20vh;
+  width: 15vw;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+hr {
+  width: 100%;
+  margin-top: 3px;
+}
+.tech-disc {
+  text-align: center;
+}
+.tech-list {
+  margin-top: 2.5vh;
+  list-style: none;
+}
+.tech-item {
+  text-align: center;
+}

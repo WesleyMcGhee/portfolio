@@ -7,6 +7,7 @@
 }
 .menu-bars {
   margin-left: 2rem;
+  margin-top: 0.5rem;
   font-size: 2rem;
   background: none;
 }
@@ -26,7 +27,9 @@
   left: 0;
   transition: 350ms;
 }
-
+.navbar-toggle {
+  margin-top: 3vh;
+}
 .nav-text {
   display: flex;
   justify-content: flex-start;

@@ -16,7 +16,7 @@ export const HeaderData = [
   },
   {
     title: "Technologies",
-    path: "/",
+    path: "/technologies",
     icon: <GrIcons.GrTechnology />,
     cName: "nav-text",
   },
