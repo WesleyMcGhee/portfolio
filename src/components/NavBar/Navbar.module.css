@@ -1,0 +1,32 @@
+.navbarContainer {
+  font-family: var(--font-geist-mono) monospace;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid var(--white);
+}
+
+.navbarContainerClosed {
+  height: 75px;
+  width: 75px;
+  border-radius: 0 0 15px 0;
+  border-bottom: 1px solid var(--white);
+}
+
+.navbarContainerOpened {
+  height: 100vh;
+  width: 75px;
+}
+
+.logo {
+  font-size: 1.2rem;
+}
+
+.expandContainer {
+  padding: 5px;
+}
