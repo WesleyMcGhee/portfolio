@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import { CaretDown, CaretUp, House } from "@phosphor-icons/react";
+import { Book, CaretDown, CaretUp, House } from "@phosphor-icons/react";
+import Link from "next/link";
 
 export function Navbar() {
   const [isOpen, setOpen] = useState<boolean>(false);
@@ -23,11 +24,22 @@ export function Navbar() {
           {isOpen ? <CaretUp size={20} /> : <CaretDown size={20} />}
         </div>
       </div>
-      {isOpen ?? (
-        <div>
-          <House size={35} />
-        </div>
-      )}
+      <div>
+        {isOpen && (
+          <div>
+            <Link href="/">
+              <div className={styles.linkContainer}>
+                <House size={35} color="white" />
+              </div>
+            </Link>
+            <Link href="/blog">
+              <div className={styles.linkContainer}>
+                <Book size={35} color="white" />
+              </div>
+            </Link>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
