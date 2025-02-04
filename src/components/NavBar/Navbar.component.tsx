@@ -26,7 +26,7 @@ export function Navbar() {
       </div>
       <div>
         {isOpen && (
-          <div>
+          <div className={styles.linksContainer}>
             <Link href="/">
               <div className={styles.linkContainer}>
                 <House size={35} color="white" />
