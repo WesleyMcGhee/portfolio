@@ -1,59 +1,54 @@
-.navbarContainer {
-  font-family: var(--font-geist-mono) monospace;
+.navbar {
   background-color: var(--secondary);
+  font-family: var(--font-geist-mono);
+  width: 70px;
   position: fixed;
-  left: 0;
   top: 0;
+  left: 0;
+}
+
+.navbarOpen {
+  height: 100vh;
+  border-right: 1px solid white;
+}
+
+.navbarClosed {
+  border-radius: 0 0 10px 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  border-right: 1px solid var(--white);
-}
-
-.navbarContainerClosed {
-  height: 75px;
-  width: 75px;
-  border-radius: 0 0 15px 0;
-  border-bottom: 1px solid var(--white);
-}
-
-.navbarContainerOpened {
-  height: 100vh;
-  width: 75px;
+  justify-content: space-evenly;
 }
 
 .logoContainer {
-  height: 15%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
 }
 
-.logo {
-  font-size: 1.2rem;
-}
-
-.expandContainer {
-  padding: 5px;
-}
-
 .linksContainer {
-  height: 80%;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .linkContainer {
-  border-radius: 5px;
-  height: 50px;
+  margin-top: 5px;
+  color: white;
   width: 50px;
+  height: 50px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .linkContainer:hover {
-  transition: 0.2s ease;
-  cursor: pointer;
   background-color: var(--primary);
+  cursor: pointer;
+  transition: 0.2s;
 }
