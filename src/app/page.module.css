@@ -1,0 +1,16 @@
+.page {
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.headshot {
+  border-radius: 10px;
+  border: 1px solid var(--white);
+}
+
+.introInnerCon {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}

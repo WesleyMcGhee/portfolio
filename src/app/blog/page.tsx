@@ -1,11 +1,10 @@
-import { Navbar } from "@/components/NavBar/Navbar.component";
 import React from "react";
+import styles from "./Blog.module.css"
 
 export default function Blog() {
   return (
     <div>
-      <Navbar />
-      <h1 style={{ textAlign: "center" }}>Under Construction</h1>
+      <h1 className={styles.underConstruction}>Under Construction</h1>
     </div>
   );
 }
