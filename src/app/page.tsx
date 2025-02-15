@@ -12,10 +12,15 @@ export default function Home() {
             <h2>Wesley McGhee</h2>
             {/*If you don't change this I will cringe forever*/}
             <p>
-              Hello, I am Wes! I have been coding for the better part of of 9
-              years pretty much, starting out with C++, and CodeBlocks. Starting
-              in 2021 I started working at MWI where I currently still work I
-              made this website to just be a blog
+              I&apos;m Wesley McGhee, a software engineer at Midwestern
+              Interactive. I&apos;ve been immersed in the world of software
+              development for nine years, with three years of professional
+              experience. I&apos;m driven by a desire to create impactful and
+              efficient software solutions. My interests extend beyond the
+              digital realm to include language learning, theological studies,
+              and a general curiosity for acquiring new knowledge. I&apos;m also
+              actively engaged in my local church community and find fulfillment
+              in hands-on projects, whether they involve coding or hardware.
             </p>
           </div>
           <div>
