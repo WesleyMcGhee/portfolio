@@ -1,0 +1,29 @@
+.page {
+  padding: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.headshot {
+  border-radius: 10px;
+  border: 1px solid var(--white);
+}
+
+.introInnerCon {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+.experienceContainer {
+  border-left: 3px solid white;
+  padding-left: 25px;
+  margin-left: 25px;
+}
+
+.experienceContent {
+  margin-top: 15px;
+}

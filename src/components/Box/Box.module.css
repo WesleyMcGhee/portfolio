@@ -1,0 +1,6 @@
+.box {
+  background-color: var(--secondary);
+  border: 1px solid white;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
